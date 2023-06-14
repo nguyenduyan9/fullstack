@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>login form</h1>
+    <form action="" method="get">
+      <input type="text" name="userName" placeholder="userName" />
+      <input type="text" name="password" placeholder="password" />
+      <button type="submit">login</button>
+    </form>
+    <form action="">
+      <input type="search" placeholder="từ khoá..." />
+      <button>search</button>
+    </form>
+
+    <form action="">
+      <div>
+        <label for="userName">Họ và tên</label>
+        <input
+          type="text"
+          name="userName"
+          id="userName"
+          placeholder="tên đăng nhập"
+        />
+      </div>
+      <div>
+        <label for="password">gmail</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="đăng nhập gmail..."
+        />
+      </div>
+
+      <button type="submit">submid</button>
+    </form>
+
+    <form action="">
+      <label for="thumb">ảnh đại diện</label>
+      <input type="file" id="thumb" name="thumb" />
+    </form>
+    <div>
+      <label>giới tính</label>
+      <label>
+        <input type="radio" name="gender" value="0" checked />không xác định
+      </label>
+
+      <label> <input type="radio" name="gender" value="2" />nam </label>
+      <label> <input type="radio" name="gender" value="1" /> nữ </label>
+    </div>
+
+    <div>
+      <label>sở thích</label>
+      <label> <input type="checkbox" name="1" checked /> ăn </label>
+      <label> <input type="checkbox" name="1" /> ngủ </label>
+      <label> <input type="checkbox" name="1" /> chơi </label>
+    </div>
+    <button type="submit">submit</button>
+    <input type="submit" />
+
+    <!-- <div>
+      <label for="massage">lời nhắn</label>
+      <textarea name="" id="" cols="30" rows="10" placeholder="lời nhắn">
+ lời nhắn ...
+      </textarea>
+    </div> -->
+    <div>
+      <label for="provinces">Tỉnh / thành phố</label>
+      <select>
+        <option value="0">Tỉnh/thành phố</option>
+        <optgroup>
+          miền bắc
+          <option value="1">Hà Nội</option>
+        </optgroup>
+
+        <option value="2">đà nẵng</option>
+        <option value="3">HCM</option>
+      </select>
+    </div>
+  </body>
+</html>
